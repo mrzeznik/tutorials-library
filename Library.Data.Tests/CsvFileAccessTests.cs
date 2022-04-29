@@ -43,6 +43,7 @@ namespace Library.Data.Tests
             // Act
             var days = fileAccess.Read(filePath);
 
+            // this should fail by returning empty collection, without an Exception
             // Assert
             Assert.Empty(days);
         }
