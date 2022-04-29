@@ -1,9 +1,13 @@
-namespace Library.Repository;
+using System;
 
-public class User
+namespace Library.Repository
 {
-    public string Name { get; set; }
-    public string Gender { get; set; }
-    public DateTime ActiveFrom { get; set; }
-    public DateTime? ActiveTo { get; set; }
+    /// <summary>Library User definition.</summary>
+    public class User
+    {
+        public string Name { get; set; }
+        public string Gender { get; set; }
+        public DateTime? ActiveFrom { get; set; }
+        public DateTime? ActiveTo { get; set; }
+    }
 }

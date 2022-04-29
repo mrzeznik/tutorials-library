@@ -1,10 +1,13 @@
-namespace Library.Repository;
+using System;
 
-/// <summary>Representation of single book borrow.</summary>
-public class Borrow
+namespace Library.Repository
 {
-    public string User { get; set; }
-    public string Book { get; set; }
-    public DateTime Since { get; set; }
-    public DateTime Till { get; set; }
+    /// <summary>Representation of single book borrow.</summary>
+    public class Borrow
+    {
+        public string User { get; set; }
+        public string Book { get; set; }
+        public DateTime? Since { get; set; }
+        public DateTime? Till { get; set; }
+    }
 }
