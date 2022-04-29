@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Library.Data
+namespace Library.Tools
 {
     /// <summary>Interface defining methods for flat file access.</summary>
     public interface IFileAccess<T>

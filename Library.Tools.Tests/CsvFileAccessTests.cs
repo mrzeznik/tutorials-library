@@ -1,7 +1,7 @@
 using Library.Repository;
 using Xunit;
 
-namespace Library.Data.Tests
+namespace Library.Tools.Tests
 {
     public class CsvFileAccessTests
     {
